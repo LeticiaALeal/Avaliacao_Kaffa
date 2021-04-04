@@ -1,0 +1,90 @@
+.container {
+	width: 300px;
+	height: 100%;
+
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td, th{
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th {
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+#formularioCadastro{
+	 display:block;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-top: 50px;
+	 width: 300px;
+	 padding-top:20px;
+	 padding-bottom: 20px;
+	 font-family: FreeMono, monospace;	
+	 
+ }
+
+ input, select{
+	width: 250px;
+	margin: 0 auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+ }
+ 
+ h1{
+	 text-align: center;
+	 font-family: FreeMono, monospace;	
+	 font-size: 50px;
+ }
+ 
+ body{
+	 background-color: #FFFAFA;
+ }
+
+ #apresentacao{
+	background-color:#EDEDED;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	text-align: center;
+	height: 400px;
+	width: 600px;
+	padding-top: 30px;
+	font-size: 40px;
+	font-family: "Roboto", sans-serif;
+ }
+ 
+ #menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 7px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #043806;
+}

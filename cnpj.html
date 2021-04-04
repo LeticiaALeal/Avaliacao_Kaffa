@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Validação de CNPJ</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="style/style.css" />
+   <link rel="icon" type="image/ico" href="images/letra.ico"/>
+    
+   </head>
+   
+   <body>
+   <h1>Validação de CNPJ:</h1>
+
+   <nav id="menu">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="listaTarefas.html">Lista Tarefas</a></li>
+          <li><a href="retangulo1.html">Intersecção de Retangulo</a></li>
+      </ul>
+  </nav>
+   
+   <section id="formularioCadastro">
+   <form name="formCNPJ">
+   <p>Insira seu CNPJ: </p><input type="text" name="txtCnpj" id="txtCnpj"/>
+   <p><input id="btValidar" type="button" value="Validar" onclick="validarCNPJ(txtCnpj.value)"/></p>
+   </form>
+
+   <a id='retorno'></a>
+   </section>
+
+   <script type="text/javascript" src="scripts/cnpj.js"></script>
+   </body>
+</html>

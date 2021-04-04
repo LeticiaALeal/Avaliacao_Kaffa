@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Lista de tarefas</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="style/style.css" />
+   <link rel="icon" type="image/ico" href="images/letra.ico"/>
+    
+   </head>
+   
+   <body>
+   <h1>Lista de tarefas</h1>
+
+   <nav id="menu">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="retangulo1.html">Intersecção de Retangulo</a></li>
+          <li><a href="cnpj.html">Validar CNPJ</a></li>
+      </ul>
+  </nav>
+   
+   <section id="formularioCadastro">
+   <form name="frmTarefas">
+   <p>Insira sua tarefa: </p><input type="text" name="txtTarefa" id="txtTarefa"/>
+   <p><input id="btEnviar" type="button" value="Enviar" onclick="enviar(event)" /></p>
+   </form>
+   </section>
+   
+   <section class ="container">
+   <table id="tbCadastro">
+   <thead>
+   <tr>
+		<th>Tarefa</th>
+      <th>Remover</th>
+   </tr>
+   </thead>
+   </table>
+   </section>
+
+   <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-storage.js"></script>
+
+   <script type="text/javascript" src="scripts/cloudy.js"></script>
+   <script type="text/javascript" src="scripts/script.js"></script>
+   
+   </body>
+</html>

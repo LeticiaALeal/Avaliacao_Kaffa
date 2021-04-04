@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Intersecção de retangulos</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="style/style_triangulo.css" />
+   <link rel="icon" type="image/ico" href="images/letra.ico"/>
+   
+   </head>
+   
+   <body>
+   <h1>Intersecção de retangulos</h1>
+
+   <nav id="menu">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="listaTarefas.html">Lista Tarefas</a></li>
+          <li><a href="cnpj.html">Validar CNPJ</a></li>
+      </ul>
+  </nav>
+   
+   <div class="frmRetangulo">
+    <form name="frm">
+    <P>Insira os dados do retangulo A:</P>
+    <input type="number" name="x1A" id="x1A" placeholder="x1" min="0" max="15"/>
+    <input type="number" name="y1A" id="y1A" placeholder="y1" min="0" max="15"/>
+    <input type="number" name="x2A" id="x2A" placeholder="x2" min="0" max="15"/>
+    <input type="number" name="y2A" id="y2A" placeholder="y2" min="0" max="15"/>
+    <input id="btEnviar" type="button" value="Salvar" onclick="insereA(x1A.value, y1A.value,x2A.value,y2A.value)" />
+
+    <P>Insira os dados do retangulo B:</P>
+    <input type="number" name="x1B" id="x1B" placeholder="x1" min="0" max="15"/>
+    <input type="number" name="y1B" id="y1B" placeholder="y1" min="0" max="15"/>
+    <input type="number" name="x2B" id="x2B" placeholder="x2" min="0" max="15"/>
+    <input type="number" name="y2B" id="y2B" placeholder="y2" min="0" max="15"/>
+    <input id="btEnviar" type="button" value="Salvar" onclick="insereB(x1B.value, y1B.value,x2B.value,y2B.value)" />
+
+    <P>Insira os dados do retangulo C:</P>
+    <input type="number" name="x1C" id="x1C" placeholder="x1" min="0" max="15"/>
+    <input type="number" name="y1C" id="y1C" placeholder="y1" min="0" max="15"/>
+    <input type="number" name="x2C" id="x2C" placeholder="x2" min="0" max="15"/>
+    <input type="number" name="y2C" id="y2C" placeholder="y2" min="0" max="15"/>
+    <input id="btEnviar" type="button" value="Salvar" onclick="insereC(x1C.value, y1C.value,x2C.value,y2C.value)" />
+
+    <hr/>
+    <p><input id="btEnviar" type="button" value="Calcular" onclick="interseccao()" /></p>
+  
+    </form>
+    <p id=retorno1></p>
+    <p id=retorno2></p>
+    <p id=retorno3></p>
+    </div>
+  
+    <script type="text/javascript" src="scripts/retangulo.js"></script>
+   </body>
+</html>
