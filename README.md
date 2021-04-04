@@ -12,7 +12,8 @@ Repositório criado para armazenar os testes de avaliação e competência prest
 - O teste se localiza no arquivo cnpj.html , o código contendo as funções se localiza no arquivo cnpj.js na pasta scripts.<br>
 
 ### Teste 3 - Intersecção de triângulos:
-- O teste se localiza no arquivo retangulo1.html, o código contendo as funções se localiza no arquivo retangulo.js na pasta scripts.
+- O teste se localiza no arquivo retangulo1.html, o código contendo as funções se localiza no arquivo retangulo.js na pasta scripts.<br>
+- A página contém espaço para entrar com os dados dos 3 triângulos, salvar e calcular. Peço para que insira o dado dos 3 triângulos e salve os 3 a fim de que as arrays sejam populadas com os valores, só então execute o cálculo que verifica a existência de intersecção.
 
 ### Teste 5 - Lista de tarefas:
 - O teste se localiza no arquivo listaTarefas.html, o código contendo as funções se localiza no arquivo  scripts.js e o código principal responsável pela integração com o firebase se encontra no arquivo cloudy.js, ambos na pasta scripts.<br>
