@@ -8,7 +8,7 @@ Repositório criado para armazenar os testes de avaliação e competência prest
 - Devido aos testes serem realizados em HTML, oriento também a inspecionar elemento e acompanhar o console, eu deixei alguns logs no código para facilitar a visualização dos processos.<br>
 - Todos as páginas contém css padrão localizado na pasta style.
 
-### Teste 1 - Validação de CPNPJ simples:
+### Teste 1 - Validação de CNPJ simples:
 - O teste se localiza no arquivo cnpj.html , o código contendo as funções se localiza no arquivo cnpj.js na pasta scripts.<br>
 
 ### Teste 3 - Intersecção de triângulos:
